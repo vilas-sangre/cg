@@ -926,3 +926,692 @@ D)
 Both (A) and (B)
 Correct Answer : Option (D) :   Both (A) and (B)
 
+
+1) What is the basic operational unit of Kubernetes?
+A. Task
+B.Nodes
+C.Pod
+D.Container
+Correct:B
+2) Kubernetes cluster data is stored in _______
+A. Etcd
+B.Kubelet
+C.Kube-apiserver
+D.None of them
+Correct:A
+3) Kubernetes version 1.8 introduced _________
+A. Secrets
+B.Taints and Tolerations
+C.Federated Clusters
+D.Cluster level Logging
+Correct:B
+4) Which of the following are core Kubernetes objects ?
+A. Pods
+B.Volumes
+C.Services
+D.All of them
+Correct:D
+5) Kubernetes Network proxy runs on which node ?
+A. Master Node
+B.Worker Node
+C.CIDR Node
+D.Both A & B
+Correct:D
+6) _______ runs on each node and ensures containers are running in a pod.
+A. Etcd
+B.Pod
+C.Kubelet
+D.Scheduler
+Correct:C
+7) Replication Controllers and Deployment Controllers are part of
+A. Etcd manager
+B.Kubeadm
+C.API Controller Manager
+D.Master Controller Manager
+Correct:D
+8) Kubernetes is written in _______
+A. C++
+B.Python
+C.Go
+D.Java
+Correct:C
+9) Which of them is a Kubernetes Controller ?
+A. ReplicaSet
+B.Deployment
+C.Rolling Updates
+D.Both A & B
+Correct:D
+10) Kubernetes is developed by _______
+A. IBM
+B.Microsoft
+C.Google
+D.None of them
+Correct:C
+11) ....................... are the Kubernetes controllers.
+A. Replicaset
+B.Deployment
+C.Namespace
+D.Both Replicaset & Deployment
+Correct:D
+12) Cronjobs in kubernetes run in .....................
+A. UTC only
+B.GMT only
+C.Local time zone
+D.None of the above
+Correct:A
+13) Kubernetes is the type of cluster management software.
+A. True
+B.False
+Correct:A
+14) What are the features of Kubernetes?
+A. Containerized infrastructure
+B.Auto-scalable infrastructure
+C.Higher density of resource utilization
+D.All of the above
+Correct:D
+15) Which of the following are the components of Kubernetes Master Machine?
+A. Scheduler
+B.Controller Manager
+C.API Server & etcd
+D.All of the above
+Correct:D
+16) Which of the followings are the Kubernetes Node Components?
+A. Docker
+B.Kubelet Service
+C.Kubernetes Proxy Service
+D.All of the above
+Correct:D
+17) Kubernetes images are the key building blocks of Containerized Infrastructure.
+A. True
+B.False
+Correct:A
+18) Kubernetes API currently supports ........... type of selectors.
+A. Set-based selectors
+B.Equality-based selectors
+C.both Set-based & Equality-based selectors
+D.None of the above
+Correct:C
+19) What are the some important functionalities of a Namespace in Kubernetes?
+A. Namespaces help pod-to-pod communication using the same namespace.
+B.Namespaces provide logical separation between the teams and their environments.
+C.Namespaces are virtual clusters that can sit on top of the same physical cluster.
+D.All of the above
+Correct:D
+20) There are ............ types of Pods in kubernets?
+A. 2
+B.3
+C.4
+D.6
+Correct:A
+
+
+1. What is the basic operational unit of Kubernetes?
+ Task
+ Pod
+ Nodes
+ Container
+
+Powered By
+VDO.AI
+
+PlayUnmute
+Fullscreen
+ Correct Answer:
+Pod
+Exp: Pod is the basic operational unit of Kubernetes.
+2. Which one of the following can be considered as the primary data store of Kubernetes?
+ pod
+ node
+ etcd
+ None of above
+ Correct Answer:
+3. Which of the following runs on each node and ensures containers are running in a pod?
+ Pod
+ Etcd
+ Kubelet
+ Scheduler
+ Correct Answer:
+Kubelet
+Exp: Kubelet runs on each node and ensures containers are running in a pod.
+4. Replication Controllers and Deployment Controllers are part of ................
+ Kubeadm
+ Etcd manager
+ API Controller Manager
+ Master Controller Manager
+ Correct Answer:
+5. Kubernetes was developed by .................
+ Google
+ IBM
+ Microsoft
+ None of above
+Download Free : Kubernetes MCQ PDF
+ Correct Answer:
+Google
+Exp: Kubernetes was developed by Google.
+6. What is Kubernetes?
+ Portable platform
+ Extensible platform
+ Open-source platform
+ All of the Above
+ Correct Answer:
+All of the Above
+Exp: Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation.
+7. what is the latest version of kubernetes?
+ 1.1
+ 2.0
+ 1.19
+ 1.20
+ Correct Answer:
+1.20
+Exp: 1.20 is the latest version of Kubernetes.
+8. In kubernetes a node is ................
+ A worker machine
+ A tool for starting a kubernetes cluster on a local machine
+ developing tool
+ None of above
+ Correct Answer:
+A worker machine
+9. What can you deploy on Kubernetes?
+ Containers
+ Virtual machines
+ System processes
+ None of above
+ Correct Answer:
+Containers
+10. At its core, Kubernetes is a platform for ...............
+ Packaging software in containers
+ Provisioning machines
+ Running and scheduling container applications on a cluster
+ None of above
+Read Best: Kubernetes Interview Questions
+ Correct Answer:
+Running and scheduling container applications on a cluster
+11. .................. manages the assigning nodes to pods depending on resource availability.
+ Etcd
+ Kubectl
+ Scheduler
+ None of above
+ Correct Answer:
+Scheduler
+12. Kubernetes is written in which language?
+ Go
+ C++
+ Python
+ Java spring framework
+ Correct Answer:
+Go
+13. To create a new deployment in kubernetes, use the command ..................
+ Kubectl run
+ Kubernetes get deployment
+ Kubernetes set deployment
+ None of above
+ Correct Answer:
+Kubectl run
+14. Which of the following command is used to create kubernetes service?
+ Kubectl run
+ Kubectl deploy
+ Kubectl expose
+ None of the above
+ Correct Answer:
+Kubectl expose
+15. Kube-apiserver on kubernetes master is designed to scale.
+ Vertically
+ Horizontally
+ Both Vertically & Horizontally
+ None of above
+Download Free: Kubernetes Interview Questions PDF
+ Correct Answer:
+Horizontally
+16. which of the following process runs on kubernetes non-master node?
+ Kube-proxy
+ Kube-apiserver
+ Both Kube-proxy & Kube-apiserver
+ None of above
+ Correct Answer:
+Kube-proxy
+17. ............ is responsible for health check of the pods running on individual nodes.
+ Kubectl
+ Kubelet
+ Kube scheduler
+ Kube controller manager
+ Correct Answer:
+Kubelet
+18. Cronjobs in kubernetes run in .....................
+ GMT only
+ UTC only
+ Local time zone
+ Server NTP settings
+ Correct Answer:
+UTC only
+19. Which of the following forms the core kubernetes objects?
+ Pod
+ Service
+ Volume
+ All of the Above
+ Correct Answer:
+All of the Above
+20. Which of the following is a Kubernetes controllers?
+ Replicaset
+ Deployment
+ Namespace
+ Both Replicaset & Deployment
+ Correct Answer:
+Both Replicaset & Deployment
+
+
+Questions and Answers
+1. 
+___________ runs on each node and ensures containers are running in a pod.
+
+A.
+Kubelet
+
+
+B.
+Etcd
+
+
+C.
+Scheduler
+
+
+D.
+Pod
+
+Correct Answer
+A. Kubelet
+Explanation
+The kubelet is responsible for running containers on each node in a Kubernetes cluster. It ensures that the containers specified in a pod are running and healthy. It communicates with the Kubernetes API server to receive instructions on which containers to run and monitors their status. The kubelet also performs tasks such as pulling container images, mounting volumes, and managing networking for the containers. Therefore, the kubelet is the component that runs on each node and ensures containers are running in a pod.
+
+ 2. 
+_______ manages the assigning nodes to pods depending on resource availability.
+
+A.
+Etcd
+
+
+B.
+Kubectl
+
+
+C.
+Scheduler
+
+
+D.
+Flanneld
+
+Correct Answer
+C. Scheduler
+Explanation
+The scheduler is responsible for managing the assignment of nodes to pods based on the availability of resources. It evaluates the resource requirements of each pod and determines the best node to schedule it on. This ensures efficient utilization of resources and optimal performance of the cluster.
+
+ 3. 
+As soon a service starts, .......... daemon running on each node add a set of environment variables on the pod for each active service.
+
+A.
+Kubectl
+
+
+B.
+Kubelet
+
+
+C.
+Kubeadm
+
+
+D.
+Service discovery
+
+Correct Answer
+B. Kubelet
+Explanation
+The kubelet is responsible for managing the state of each node in a Kubernetes cluster. When a service starts, the kubelet running on each node adds a set of environment variables on the pod for each active service. These environment variables provide important information and configuration details for the service to function correctly within the cluster.
+
+ 4. 
+Replication Controllers and Deployment Controllers are part of
+
+A.
+API Controller Manager
+
+
+B.
+Etcd manager
+
+
+C.
+Master Controller Manager
+
+
+D.
+Kubeadm
+
+Correct Answer
+C. Master Controller Manager
+Explanation
+The Master Controller Manager is responsible for managing different controllers in Kubernetes, such as Replication Controllers and Deployment Controllers. These controllers are crucial for ensuring the desired state of the cluster, managing the scaling and replication of pods, and handling updates and rollbacks. Therefore, the Master Controller Manager is the correct option as it encompasses the overall management of controllers in Kubernetes.
+
+
+ 5. 
+___________________ is a special namespace that is used for special purposes like bootstrapping a cluster.
+
+A.
+Kube-public
+
+
+B.
+Kube-private
+
+
+C.
+Kube-system
+
+
+D.
+Default
+
+Correct Answer
+A. Kube-public
+Explanation
+The kube-public namespace is a special namespace used for special purposes like bootstrapping a cluster. It is a publicly readable namespace that contains resources that should be accessible to all users and services in the cluster. This namespace is commonly used for storing cluster-wide resources that need to be accessed by multiple users or services, such as cluster-wide configuration maps or public secrets.
+
+ 6. 
+Kubernetes uses _______________________ to connect to ouath 2 providers to offload the authentication to external services.
+
+A.
+Webhook Token Authentication
+
+
+B.
+Keystone Password
+
+
+C.
+OpenID Connect Tokens
+
+
+D.
+Authentication Proxy
+
+Correct Answer
+C. OpenID Connect Tokens
+Explanation
+Kubernetes uses OpenID Connect Tokens to connect to OAuth 2 providers and offload the authentication process to external services. OpenID Connect is an identity layer on top of OAuth 2.0, which allows for secure authentication and authorization. By using OpenID Connect Tokens, Kubernetes can validate and verify user identities with the help of external authentication providers, ensuring secure access to the cluster.
+
+ 7. 
+To program additional authentication logic besides available authenticator modules, _______________ can be used.
+
+A.
+WebHook Authentication
+
+
+B.
+Authentication Proxy
+
+
+C.
+Keystone Password
+
+
+D.
+OpenID Connect Tokens
+
+Correct Answer
+B. Authentication Proxy
+Explanation
+To program additional authentication logic besides available authenticator modules, an Authentication Proxy can be used. An Authentication Proxy acts as an intermediary between the user and the authentication system, allowing for the implementation of custom authentication logic. It can authenticate users based on various factors such as user credentials, device information, or location, and then communicate with the authentication system to verify the user's identity. By using an Authentication Proxy, developers have the flexibility to add their own authentication logic on top of the existing authenticator modules.
+
+ 8. 
+Kubernetes is written in
+
+A.
+C++
+
+
+B.
+Go
+
+
+C.
+Python
+
+
+D.
+Java spring framework
+
+Correct Answer
+B. Go
+Explanation
+Kubernetes is written in Go. Go, also known as Golang, is a programming language developed by Google. It is known for its simplicity, efficiency, and strong support for concurrency. Go's fast execution speed and built-in features for networking and parallelism make it an ideal choice for developing highly scalable and efficient systems like Kubernetes. Additionally, Go's strong type system and garbage collection help ensure the reliability and stability of the Kubernetes codebase.
+
+ 9. 
+An abstraction in kubernetes which defines a logical set of pods and a policy to access them.
+
+A.
+Kubelet
+
+
+B.
+Service
+
+
+C.
+Node
+
+
+D.
+Container
+
+Correct Answer
+B. Service
+Explanation
+A service in Kubernetes is an abstraction that defines a logical set of pods and a policy to access them. It acts as a stable endpoint to connect to a group of pods, providing load balancing and service discovery functionality. By defining a service, applications can easily communicate with each other without needing to know the specific IP addresses or ports of individual pods.
+
+ 10. 
+To create a new deployment in kubernetes, use the command
+
+A.
+Kubernetes set deployment
+
+
+B.
+Kubernetes get deployment
+
+
+C.
+Kubectl run
+
+
+D.
+Kubectl deploy
+
+Correct Answer
+C. Kubectl run
+Explanation
+The correct answer is "kubectl run" because this command is used to create a new deployment in Kubernetes. It allows users to run a particular image on the cluster and manage it as a deployment. The "kubectl run" command is commonly used to quickly create and deploy containers in Kubernetes.
+
+ 11. 
+The command to create Kubernetes service is
+
+A.
+Kubectl expose
+
+
+B.
+Kubectl set service
+
+
+C.
+Kubectl run
+
+
+D.
+Kubectl deploy
+
+Correct Answer
+A. Kubectl expose
+Explanation
+The correct answer is "kubectl expose" because this command is used to create a Kubernetes service. It allows the user to expose a deployment, replication controller, or pod as a new service. This command is essential for setting up networking within a Kubernetes cluster and making the service accessible to other pods or external clients.
+
+ 12. 
+Kube-apiserver on kubernetes master is designed to scale. 
+
+A.
+Vertically
+
+
+B.
+Horizontally
+
+Correct Answer
+B. Horizontally
+Explanation
+The correct answer is horizontally. This means that the kube-apiserver on the Kubernetes master is designed to scale by adding more instances of the kube-apiserver horizontally. Horizontal scaling involves adding more machines or instances to distribute the workload and increase capacity. This allows for better performance and handling of increased traffic or demand in a Kubernetes cluster.
+
+ 13. 
+Following k8s resources do not associate with any namespace.
+
+A.
+DaemonSets
+
+
+B.
+PersistentVolumes
+
+
+C.
+ReplicaSets
+
+
+D.
+Nodes
+
+
+E.
+Services
+
+Correct Answer(s)
+B. PersistentVolumes
+D. Nodes
+Explanation
+PersistentVolumes and Nodes do not associate with any namespace in Kubernetes.
+
+PersistentVolumes are storage resources that exist independently of any namespace and can be accessed by any pod in the cluster. They provide a way to store data that needs to persist beyond the lifetime of a pod.
+
+Nodes, on the other hand, represent the worker machines in the cluster and are responsible for running pods. They are not associated with any specific namespace as they are part of the cluster infrastructure rather than an application or service running within a namespace.
+
+ 14. 
+The Service Type _____________ works only if your cluster is setup to work with a cloud provider.
+
+A.
+ClusterIP
+
+
+B.
+NodePort
+
+
+C.
+LoadBalancer
+
+
+D.
+ExternalName
+
+Correct Answer
+C. LoadBalancer
+Explanation
+The LoadBalancer service type works only if your cluster is set up to work with a cloud provider. This is because a LoadBalancer service type requires the cloud provider's load balancer to distribute traffic to the service. If the cluster is not set up with a cloud provider, the load balancer functionality will not be available, and therefore the LoadBalancer service type cannot be used.
+
+ 15. 
+This volume type can be used to share contents within containers in a pod, but will not persist beyond the life of a pod.
+
+A.
+EmptyDir
+
+
+B.
+FlexVolume
+
+
+C.
+ConfigMap
+
+
+D.
+Local
+
+Correct Answer
+A. EmptyDir
+Explanation
+The emptyDir volume type can be used to share contents within containers in a pod. It creates an empty directory on the host machine and mounts it into the pod. However, the contents of this volume will not persist beyond the life of the pod. Once the pod is terminated or restarted, the contents of the emptyDir volume will be lost.
+
+ 16. 
+__________________ is responsible for health check of the pods running on individual nodes
+
+A.
+Kubectl
+
+
+B.
+Kube controller manager
+
+
+C.
+Kube scheduler
+
+
+D.
+Kubelet
+
+Correct Answer
+D. Kubelet
+Explanation
+The kubelet is responsible for the health check of the pods running on individual nodes. It is an agent that runs on each node in the cluster and ensures that the containers in the pods are running and healthy. The kubelet communicates with the Kubernetes API server to receive instructions about which pods to run and monitor. It also reports the status of the pods back to the API server.
+
+ 17. 
+Cronjobs in kubernetes run in
+
+A.
+UTC only
+
+
+B.
+Server NTP settings
+
+
+C.
+Local time zone
+
+
+D.
+GMT only
+
+Correct Answer
+A. UTC only
+Explanation
+Cronjobs in Kubernetes run in UTC only. This means that the scheduled tasks will be executed based on Coordinated Universal Time, which is a standardized time used worldwide. The use of UTC ensures consistency and avoids any confusion caused by different time zones.
+
+ 18. 
+_________ service is automatically created for you k8s cluster creation and takes care of the internal routing of the cluster.
+
+A.
+NodePort
+
+
+B.
+ClusterIP
+
+
+C.
+Headless
+
+
+D.
+Load Balancer
+
+Correct Answer
+B. ClusterIP
+Explanation
+A ClusterIP service is automatically created for you during k8s cluster creation and it takes care of the internal routing of the cluster. ClusterIP is a type of service in Kubernetes that assigns a virtual IP address to a set of pods. This IP address allows communication between the pods within the cluster, but it is not accessible from outside the cluster. ClusterIP services are used for internal communication and are not exposed to the external network.
