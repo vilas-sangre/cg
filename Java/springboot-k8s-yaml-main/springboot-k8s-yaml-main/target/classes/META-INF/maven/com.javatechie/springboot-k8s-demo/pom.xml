@@ -8,7 +8,7 @@
 		<version>2.6.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.cg</groupId>
+	<groupId>com.javatechie</groupId>
 	<artifactId>springboot-k8s-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-k8s-demo</name>
