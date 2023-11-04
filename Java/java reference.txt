@@ -1,2 +1,8 @@
 https://datatrained.com/post/oops-concepts-with-real-time-examples/
 https://www.freecodecamp.org/news/object-oriented-programming-concepts-java/
+
+
+https://www.geeksforgeeks.org/functional-programming-in-java-8-using-the-stream-api-with-example/
+https://in.indeed.com/career-advice/interviewing/java-interview-programs
+
+ 
